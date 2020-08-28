@@ -1,0 +1,120 @@
+@media (max-width: 1024px){
+    .portfolio .slider__item-inner-text {
+        padding-left: 42%;
+    }
+}
+
+@media (max-width: 950px){
+    .portfolio .slider__item-inner-text {
+        padding-left: 40%;
+    }
+}
+
+@media (max-width: 950px){
+    .skills__inner{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 850px){
+    .main{
+        &__inner{
+            display: flex;
+            flex-direction: column-reverse;
+            &-text{
+                text-align: center;
+            }
+        }
+    }
+}
+
+@media (max-width: 700px){
+    .header{
+        &-top{
+            .menu{
+                .header__btn{
+                    display: block;
+                }
+                ul{
+                    display: none;
+                    position: absolute;
+                    left: 0;
+                    right: 0;
+                    margin-top: 20px;
+                    z-index: 50;
+                    background-color: #fff;
+                    height: 100vh;
+                    li {
+                        padding-bottom: 20px;
+                        padding-top: 20px;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+    .skills__inner .chartjs-render-monitor {
+        width: 500px !important;
+        height: 300px !important;
+    }
+    .portfolio .slider__item-inner-text {
+        padding-left: 35%;
+        a{
+            font-size: 18px;
+        }
+    }
+}
+
+@media (max-width: 600px){
+    .skills__inner .chartjs-render-monitor {
+        width: 450px !important;
+        height: 250px !important;
+    }
+}
+
+@media (max-width: 540px){
+    .portfolio .slider__item-inner-text {
+        padding-left: 39%;
+    }
+}
+
+@media (max-width: 500px){
+    .skills__inner .chartjs-render-monitor {
+        width: 350px !important;
+        height: 200px !important;
+    }
+    .footer__contacts-menu{
+        font-size: 20px;
+        li{
+            margin: 0 20px;
+        }
+    }
+}
+
+@media (max-width: 411px){
+    .portfolio .slider__item-inner-text {
+        padding-left: 36%;
+    }
+}
+
+@media (max-width: 400px){
+    .skills__inner .chartjs-render-monitor {
+        width: 300px !important;
+        height: 200px !important;
+    }
+    .footer__contacts-menu li{
+        margin: 0 10px;
+    }
+}
+
+@media (max-width: 360px){
+    .portfolio .slider__item-inner-text {
+        padding-left: 32%;
+    }
+}
+
+@media (max-width: 320px){
+    .portfolio .slider__item-inner-text {
+        padding-left: 30%;
+    }
+}
